@@ -2,15 +2,15 @@
 
 {{-- <ul class="nav justify-content-left"> --}}
 <div class="container-nav navbar" style="background-color: rgb(221, 68, 68;">
-        <div class="align-right">
-                  <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/">Home</a>
-                  <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/posts">Top stories</a>
-                  <a class="nav-link button" href="/posts/create">Write a post!</a> 
+        <div class="align-left">
+                  <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/"><b>Home</b></a>
+                  <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/posts"><b>Top stories</b></a>
+                  <a class="nav-link button" href="/posts/create"><b>Write a post!</b></a> 
         </div>          
 
         <div class="align-right">
-                    <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/signup">Signup</a>
-                    <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/login">Login</a>
+                    <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/signup"><b>Signup</b></a>
+                    <a class="nav-link button" class="{{ Request::is('/') ? "active" : "" }}" href="/login"><b>Login</b></a>
         </div>
   </div>
 

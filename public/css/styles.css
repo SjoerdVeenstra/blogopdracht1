@@ -1,5 +1,10 @@
+/* centering: defined width: display flex, flex, margin left/right auto. Non-defined width: justify content center */
+
+
 body{
-    background-color: lightcyan;
+    background: #3e5151; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3e5151, #decba4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3e5151, #decba4);
 }
 
 .btn-h1-spacing{
@@ -19,18 +24,33 @@ body{
     display: flex;
     list-style-type:none;
     margin-bottom: 20px;
-    background-color: rgb(216, 96, 96);
     /* justify-content: space-between; */
+    background-color: rgb(248, 242, 219);
+    opacity: 0.7;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+.jumbotron-1{
+    background-color: rgb(248, 242, 219);
+    opacity: 0.5;
+}
+
+.sidebar-1{
+    background-color: rgb(248, 242, 219);
+    opacity: 0.5;
 }
 
 .button{
     color: rgb(139, 230, 230);
-    background-color: rgb(216, 96, 96);
+    font-weight: bold;
+    background-color: rgb(248, 242, 219);
+    opacity: 0.5;
     margin: 5px;
 }
 
 .text{
     color: rgb(139, 230, 230);
+    font-weight: bold;
 }
 
 .text-2{
@@ -59,4 +79,18 @@ body{
 .page-links{
     display: flex;
     justify-content: center;
+}
+
+.video-container{
+    display: flex;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    width: 320; 
+    height: 240;
 }

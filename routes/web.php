@@ -21,11 +21,9 @@ Route::get('signup', 'PagesController@getSignup');
 
 Route::get('login', 'PagesController@getLogin');
     
-
-
-
 Route::get('/', 'PagesController@getIndex');
 
+Route::get('about', 'PagesController@getAbout');
 
 Route::resource('posts', 'PostController');
 
